@@ -1,0 +1,55 @@
+{
+    "name": "Ruby",
+    "persistent_data": true,
+    "background": "minecraft:textures/block/red_concrete.png",
+    "icon": "minecraft:magma_block",
+    "gui_display_type": "tree",
+    "abilities": {
+     "ruby": {
+         "type": "palladium:dummy",
+         "icon": "minecraft:blaze_powder",
+         "title": "Test 1",
+         "bar_color": "red",
+         "hidden": false,
+         "hidden_in_bar": false,
+         "list_index": 0,
+         "gui_position": [0, 0],
+         "description": "this is a test of abilitys",
+         "conditions": {
+             "enabling": [
+                {
+                    "type": "palladium:action",
+                    "cooldown": 0,
+                    "key_type": "key_bind",
+                    "needs_empty_hand": false,
+                    "allow_scrolling_when_crouching": true
+                }
+             ],
+             "unlocking": []
+         }
+     },
+     "ruby_2": {
+         "type": "palladium:dummy",
+         "icon": "minecraft:blaze_powder",
+         "title": "Test 2",
+         "bar_color": "red",
+         "hidden": false,
+         "hidden_in_bar": false,
+         "list_index": 1,
+         "gui_position": [0, 1],
+         "description": "this is a test of abilitys",
+         "conditions": {
+             "enabling": [
+                {
+                    "type": "palladium:action",
+                    "cooldown": 0,
+                    "key_type": "key_bind",
+                    "needs_empty_hand": false,
+                    "allow_scrolling_when_crouching": true
+                }
+             ],
+             "unlocking": []
+         }
+     }
+    }
+}
