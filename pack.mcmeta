@@ -1,0 +1,13 @@
+{
+    "pack": {
+        "id": "gemlike",
+        "pack_format": 15,
+        "description": "An Addon for Steven Universe Using Su_Gems and Gempire",
+        "version": "1.0.0"
+    },
+    "dependencies": {
+        "common": {},
+        "fabric": {},
+        "forge": {}
+    }
+}

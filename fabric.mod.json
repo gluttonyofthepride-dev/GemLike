@@ -1,0 +1,13 @@
+{
+    "schemaVersion": 1,
+    "authors": [
+        "GodEight"
+    ],
+    "environment": "*",
+    "id": "gemlike",
+    "version": "1.0.0",
+    "name": "GemLike",
+    "description": "An Addon for Steven Universe Using Su_Gems and Gempire",
+    "icon": "logo.png",
+    "license": "All rights reserved"
+}
